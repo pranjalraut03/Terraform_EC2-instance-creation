@@ -44,7 +44,7 @@ Statement 1 (defines what platform, where to launch and method of authentication
 <br>
 4.secret_key - This is the 'secret key' from the key pair we created for our AWS IAM User.
 <br>
-
+<br>
 Statement 2 (defines resource specfications):
 <br>
 1.resource - In this case we have specified "aws_instance" the terraform name for an AWS EC2 Instance and secondly "my_ec2" which is what we want to name the instance. Two resource blocks cannot have the same name "my_ec2" will be a unique name in the file. 
