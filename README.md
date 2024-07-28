@@ -66,3 +66,7 @@ Step 1: Run "terraform init" on the command line in the folder containing your t
 
 Step 2: Run "terraform plan" this will generate a plan of the infrastructure your file will create.
 <br>
+Step 3: If you are happy with the plan, run "terraform apply" to create the infrastructure. 
+<br>
+Step 4: Terraform will show you the plan again and ask if you want to perform these actions. Say 'yes'. 
+<br>
