@@ -35,8 +35,7 @@ resource "aws_instance" "my_ec2" {
 <br>
 <br>
 Statement 1 (defines what platform, where to launch and method of authentication):
-<br>
-1. provider  - In this case it is "aws", the provider has to be specified and it is simply the platform that terraform will be provisioning infrastructure on.
+<br>1. provider  - In this case it is "aws", the provider has to be specified and it is simply the platform that terraform will be provisioning infrastructure on.
 <br>
 2. region - This is the AWS Region we want to launch our EC2 instance into. In this case we have chosen "us-west-2"
 <br>
