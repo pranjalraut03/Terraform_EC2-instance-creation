@@ -60,7 +60,6 @@ However there are far more elements that optionally can be specified. They are n
 <br>
 Now we have written our code and saved it with a .tf file type we can run the code with Terraform.  
 <br>
-
 Step 1: Run "terraform init" on the command line in the folder containing your tf file - This will initialise Terraform and install any dependencies your file requires. 
 <br>
 
